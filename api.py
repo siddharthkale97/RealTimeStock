@@ -5,7 +5,7 @@ app.config["Debug"] = True
 
 @app.route('/')
 def homepage():
-   return "Hi"
+   return "Test"
 
 if __name__ == "__main__":
 	app.run()
